@@ -25,7 +25,7 @@ const HeaderInfos = () => {
           {headerData.active_cryptocurrencies &&
             headerData.active_cryptocurrencies}
         </li>
-        <li>Marchés : {headerData.markets & headerData.markets}</li>
+        <li>Marchés : {headerData.markets && headerData.markets}</li>
       </ul>
       <ul className="infos-mkt">
         <li className="global-mkt">
